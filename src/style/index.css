@@ -1,0 +1,36 @@
+html.dark {
+    --el-border-color-light: #ADCEE7;
+    --background-color: #283F5F;
+    --el-border-color:var(--el-border-color-light);
+    --el-bg-color-overlay: var(--background-color);
+    --el-fill-color-lighter: var(--background-color);
+    --el-bg-color: var(--background-color);
+    --el-fill-color: var(--background-color);
+    --el-fill-color-light: var(--background-color);
+}
+
+.cesium-credit-logoContainer {
+    display: none!important;
+}
+
+.z-400 {
+    z-index: 400;
+}
+
+.z-500 {
+    z-index: 500;
+}
+
+@font-face {
+    font-family: YouSheBiaoTiHei;
+    src: url('@/assets/font/YouSheBiaoTiHei.ttf');
+}
+
+.font-ysbth {
+    font-family: YouSheBiaoTiHei;
+}
+
+.mars3d-locationbar-content:first-child {
+    float: left!important;
+    background: #2b0700!important;
+}
